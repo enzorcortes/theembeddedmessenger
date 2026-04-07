@@ -1,7 +1,7 @@
-# theembeddedmessenger
+# 📟 theembeddedmessenger
 Design a handheld messenger device for 5 nodes that sends 1 of 10 predefined messages. Each message is encoded via a unique hand movement sequence detected by the built-in accelerometer, enabling secure and simple communication between nodes for proof-of-concept.
 
-# Objective:
+## ✏️ Objective:
 Embedded system design focuses on gathering useful data, processing that data, and
 providing a useful representation of information. Secure communications have always
 been a requirement (and a concern) for not only embedded developers, but just about
@@ -15,7 +15,7 @@ across 5 nodes, i.e. 5 people. Each message will be encoded by a hand
 movement sequence that can be measured by the built in accelerometer. The 5 people are assigned a node number from Node 1 to Node 5. 
 Create 10 messages, enumerated as message 1 through message 10.
 
-# The challenge involves the following procedure:
+## 📋 The challenge involves the following procedure:
 1. Node 1 will then decide which message to send (1-10).
 
 2. Node 1 will pick up Node 2’s device and “transmit” the message to Node 2 by
@@ -40,11 +40,11 @@ gesture for all (same for all messages).
 
 7. Objective – Transmit the message from Node 1 to Node 5
 
-# Required Parts:
+## 🔩 Required Parts:
 1. Adafruit Classic Playground with built-in accelerometer
 2. Power supply/USB power bank/connected USB cable.
 
-# Restrictions:
+# ‼️ Restrictions:
 No other components may be used other than those specified above.
 The PlatformIO programming environment must be used.
 Allowed to use any drivers/HAL functions available through the IDE
